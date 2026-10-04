@@ -18,7 +18,7 @@ Code reproduction, visual evaluations, and theoretical explanations from John Su
 
 ---
 
-## 📌 Progress Pembelajaran (Chapters 1–5 Milestone)
+##  Progress Pembelajaran (Chapters 1–5 Milestone)
 
 | Chapter | Topik & Cakupan Materi | Notebook | Status | Quick Run |
 |---|---|---|---|:---:|
@@ -27,20 +27,10 @@ Code reproduction, visual evaluations, and theoretical explanations from John Su
 | **03** | **Dimensionality Reduction Techniques**<br>PCA (variance preservation & geometric rotation), Linear Discriminant Analysis (LDA), t-SNE visualization on high-dimensional data, and clustering comparison | [Chapter 3](03_Dimensionality_Reduction_Techniques.ipynb) | ✅ Complete | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/03_Dimensionality_Reduction_Techniques.ipynb) |
 | **04** | **Distance Metrics & Nearest Neighbors**<br>KNN classification & regression, metrics comparison (Euclidean, Manhattan, Chebyshev), hyperparameter tuning via `GridSearchCV`, and decision boundary analysis | [Chapter 4](04_Distance_Metrics_and_Nearest_Neighbors.ipynb) | ✅ Complete | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/04_Distance_Metrics_and_Nearest_Neighbors.ipynb) |
 | **05** | **Linear Models & Regularization**<br>Ordinary Least Squares (OLS), multicollinearity diagnosis, L1/L2 regularization (Ridge, Lasso, ElasticNet), coefficient paths, Polynomial regression, and Spline basis | [Chapter 5](05_Linear_Models_and_Regularization.ipynb) | ✅ Complete | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/05_Linear_Models_and_Regularization.ipynb) |
-| 06 | Logistic Regression: Multiclass, Regularization, and Evaluation | — | ⏳ Planned | — |
-| 07 | Support Vector Machines & Kernel Methods | — | ⏳ Planned | — |
-| 08 | Decision Trees, Random Forests, and Ensemble Methods | — | ⏳ Planned | — |
-| 09 | Text Processing and Multiclass Classification | — | ⏳ Planned | — |
-| 10 | Clustering Techniques and Cluster Evaluation | — | ⏳ Planned | — |
-| 11 | Novelty and Outlier Detection | — | ⏳ Planned | — |
-| 12 | Cross-Validation and Model Evaluation | — | ⏳ Planned | — |
-| 13 | Model Deployment and Maintenance | — | ⏳ Planned | — |
-
-> **Milestone Catatan:** Target pemenuhan tugas perkuliahan untuk Bab 1 sampai 5 selesai sebelum **10 Oktober 2026 pukul 23:59 WIB**. Bab 6–13 dicantumkan sebagai cakupan keseluruhan buku teks.
 
 ---
 
-## 🔍 Ringkasan Isi Setiap Notebook
+##  Ringkasan Isi Setiap Notebook
 
 Setiap notebook disusun secara terstruktur dengan standar akademik:
 1. **Reproducibility & Environment:** Menggunakan seed acak tetap (`random_state=42`), pengecekan versi library, dan pemisahan data train-test sebelum proses fitting untuk mencegah *data leakage*.
@@ -57,24 +47,10 @@ Setiap notebook disusun secara terstruktur dengan standar akademik:
 
 ---
 
-## 📂 Struktur Repositori
-
-```text
-scikit-learn-cookbook/
-├── .gitignore                                       # Konfigurasi ignore file Python, Jupyter, dan IDE
-├── LICENSE                                          # Lisensi Open Source (MIT)
-├── README.md                                        # Dokumentasi utama proyek
-├── requirements.txt                                 # Dependensi library Python
-├── 01_Common_Conventions_and_API_Elements.ipynb      # Notebook Chapter 1
-├── 02_Pre_Model_Workflow_and_Data_Preprocessing.ipynb # Notebook Chapter 2
-├── 03_Dimensionality_Reduction_Techniques.ipynb     # Notebook Chapter 3
-├── 04_Distance_Metrics_and_Nearest_Neighbors.ipynb   # Notebook Chapter 4
-└── 05_Linear_Models_and_Regularization.ipynb         # Notebook Chapter 5
-```
 
 ---
 
-## 🚀 Panduan Menjalankan Notebook
+## Panduan Menjalankan Notebook
 
 ### Opsi 1: Google Colab (Tanpa Setup Lokal)
 Klik tombol **Open In Colab** pada tabel di atas untuk membuka notebook langsung di Google Colab. Pilih menu **Runtime → Restart session and run all** (atau tekan `Ctrl + F9`).
@@ -120,7 +96,7 @@ Klik tombol **Open In Colab** pada tabel di atas untuk membuka notebook langsung
 
 ---
 
-## 📚 Referensi & Sumber Primer
+##  Referensi & Sumber Primer
 
 1. **Buku Rujukan:** Sukup, John. *scikit-learn Cookbook: Over 80 Recipes for Machine Learning in Python with scikit-learn*, 3rd Edition, Packt Publishing, 2025.
 2. **Official Repository:** [PacktPublishing/scikit-learn-Cookbook-Third-Edition](https://github.com/PacktPublishing/scikit-learn-Cookbook-Third-Edition)
