@@ -18,34 +18,6 @@ Code reproduction, visual evaluations, and theoretical explanations from John Su
 
 ---
 
-##  Progress Pembelajaran (Chapters 1–5 Milestone)
-
-| Chapter | Topik & Cakupan Materi | Notebook | Status | Quick Run |
-|---|---|---|---|:---:|
-| **01** | **Common Conventions & API Elements**<br>Estimators, transformers, `fit()`/`transform()`, custom classes, Pipelines, hyperparameter search, and metadata tags | [Chapter 1](01_Common_Conventions_and_API_Elements.ipynb) |  Complete | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/01_Common_Conventions_and_API_Elements.ipynb) |
-| **02** | **Pre-Model Workflow & Preprocessing**<br>Data quality audit, missing values, scaling, categorical encoding (`ColumnTransformer`), feature engineering, and robust leakage-free pipelines | [Chapter 2](02_Pre_Model_Workflow_and_Data_Preprocessing.ipynb) |  Done Ach | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/02_Pre_Model_Workflow_and_Data_Preprocessing.ipynb) |
-| **03** | **Dimensionality Reduction Techniques**<br>PCA (variance preservation & geometric rotation), Linear Discriminant Analysis (LDA), t-SNE visualization on high-dimensional data, and clustering comparison | [Chapter 3](03_Dimensionality_Reduction_Techniques.ipynb) |  DOne Ach | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/03_Dimensionality_Reduction_Techniques.ipynb) |
-| **04** | **Distance Metrics & Nearest Neighbors**<br>KNN classification & regression, metrics comparison (Euclidean, Manhattan, Chebyshev), hyperparameter tuning via `GridSearchCV`, and decision boundary analysis | [Chapter 4](04_Distance_Metrics_and_Nearest_Neighbors.ipynb) |  Done Ach | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/04_Distance_Metrics_and_Nearest_Neighbors.ipynb) |
-| **05** | **Linear Models & Regularization**<br>Ordinary Least Squares (OLS), multicollinearity diagnosis, L1/L2 regularization (Ridge, Lasso, ElasticNet), coefficient paths, Polynomial regression, and Spline basis | [Chapter 5](05_Linear_Models_and_Regularization.ipynb) |  Done Ach | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhabibier/scikit-learn-cookbook/blob/main/05_Linear_Models_and_Regularization.ipynb) |
-
----
-
-##  Ringkasan Isi Setiap Notebook
-
-Setiap notebook disusun secara terstruktur dengan standar akademik:
-1. **Reproducibility & Environment:** Menggunakan seed acak tetap (`random_state=42`), pengecekan versi library, dan pemisahan data train-test sebelum proses fitting untuk mencegah *data leakage*.
-2. **Implementasi Resep Buku:** Reproduksi akurat dari kode rujukan buku dengan adaptasi modern scikit-learn 1.5+.
-3. **Analisis Teoretis & Interpretasi Hasil:** Pembahasan mendalam dalam Bahasa Indonesia mengenai cara kerja algoritma, asumsi matematis, visualisasi interaktif, dan keterbatasan model.
-4. **Latihan Mandiri & Pertanyaan Refleksi:** Menguji performa model pada berbagai skenario dataset sintetis maupun riil.
-
-### Sorotan Teknis per Bab:
-- **Chapter 1:** Menelaah arsitektur konsisten scikit-learn (`fit`, `transform`, `predict`), pembuatan custom transformer dengan `BaseEstimator` dan `TransformerMixin`, otomatisasi alur kerja melalui `Pipeline`, serta eksplorasi metadata tags API.
-- **Chapter 2:** Pipeline pembersihan data lengkap tanpa kebocoran (*leakage-free*). Menggunakan `ColumnTransformer` untuk memproses fitur numerik (imputasi median + standardisasi) dan kategorikal (one-hot encoding) secara terpisah, dilengkapi mekanisme fallback dataset offline (California Housing vs Diabetes).
-- **Chapter 3:** Eksplorasi reduksi dimensi linear tanpa supervisi (PCA) vs dengan supervisi (LDA), analisis varians kumulatif, serta reduksi dimensi nonlinier probabilistik (t-SNE pada dataset Digits) beserta evaluasi clustering KMeans pada manifold tereduksi.
-- **Chapter 4:** Eksplorasi geometri metrik jarak pada dataset non-linear (Noisy Circles & Checkerboard), optimasi parameter $k$ dan bobot jarak menggunakan `GridSearchCV`, learning curve, serta perbandingan KNN klasifikasi dan regresi.
-- **Chapter 5:** Diagnostik multikolinearitas OLS, visualisasi *regularization paths* pada Ridge ($L_2$), Lasso ($L_1$), dan ElasticNet ($L_1 + L_2$), validasi silang otomatis (`RidgeCV`, `LassoCV`, `ElasticNetCV`), hingga penanganan non-linearitas menggunakan `PolynomialFeatures` dan `SplineTransformer`.
-
----
 
 
 ---
